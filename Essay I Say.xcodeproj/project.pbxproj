@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		49176F8722C28952000A0C29 /* EndedQuestionClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 49176F8622C28952000A0C29 /* EndedQuestionClassifier.mlmodel */; };
-		49176F8D22C29C20000A0C29 /* Voice.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 49176F8C22C29C1F000A0C29 /* Voice.mlmodel */; };
 		49261DC122CE5AB2000E618D /* TimeClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 49261DC022CE5AB2000E618D /* TimeClassifier.mlmodel */; };
 		49315B0422EB46F500AD5CE9 /* EssayClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 49315B0322EB46F500AD5CE9 /* EssayClassifier.mlmodel */; };
 		495525EC22E29EA3004D36DF /* AspectClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 495525EB22E29EA3004D36DF /* AspectClassifier.mlmodel */; };
+		49C27F1E24AFCA6900B21FAE /* VoiceClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 49C27F1D24AFCA6900B21FAE /* VoiceClassifier.mlmodel */; };
 		49E94B0622B9A6B10036759B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E94B0522B9A6B10036759B /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,10 +29,10 @@
 
 /* Begin PBXFileReference section */
 		49176F8622C28952000A0C29 /* EndedQuestionClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EndedQuestionClassifier.mlmodel; sourceTree = "<group>"; };
-		49176F8C22C29C1F000A0C29 /* Voice.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Voice.mlmodel; sourceTree = "<group>"; };
 		49261DC022CE5AB2000E618D /* TimeClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TimeClassifier.mlmodel; sourceTree = "<group>"; };
 		49315B0322EB46F500AD5CE9 /* EssayClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EssayClassifier.mlmodel; sourceTree = "<group>"; };
 		495525EB22E29EA3004D36DF /* AspectClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AspectClassifier.mlmodel; sourceTree = "<group>"; };
+		49C27F1D24AFCA6900B21FAE /* VoiceClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VoiceClassifier.mlmodel; sourceTree = "<group>"; };
 		49E94B0222B9A6B10036759B /* Essay I Say */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Essay I Say"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E94B0522B9A6B10036759B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,8 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				49261DC022CE5AB2000E618D /* TimeClassifier.mlmodel */,
-				49176F8C22C29C1F000A0C29 /* Voice.mlmodel */,
 				495525EB22E29EA3004D36DF /* AspectClassifier.mlmodel */,
+				49C27F1D24AFCA6900B21FAE /* VoiceClassifier.mlmodel */,
 				49176F8622C28952000A0C29 /* EndedQuestionClassifier.mlmodel */,
 				49315B0322EB46F500AD5CE9 /* EssayClassifier.mlmodel */,
 				49E94B0522B9A6B10036759B /* main.swift */,
@@ -137,7 +137,7 @@
 			files = (
 				49261DC122CE5AB2000E618D /* TimeClassifier.mlmodel in Sources */,
 				49315B0422EB46F500AD5CE9 /* EssayClassifier.mlmodel in Sources */,
-				49176F8D22C29C20000A0C29 /* Voice.mlmodel in Sources */,
+				49C27F1E24AFCA6900B21FAE /* VoiceClassifier.mlmodel in Sources */,
 				49176F8722C28952000A0C29 /* EndedQuestionClassifier.mlmodel in Sources */,
 				495525EC22E29EA3004D36DF /* AspectClassifier.mlmodel in Sources */,
 				49E94B0622B9A6B10036759B /* main.swift in Sources */,

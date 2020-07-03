@@ -61,7 +61,7 @@ class Game {
                 print("Problem classifying your question.")
             }
         case .voices:
-            let model = Voice()
+            let model = VoiceClassifier()
             do {
                 let prediction = try model.prediction(text: text.lowercased())
                 print(prediction.label)
