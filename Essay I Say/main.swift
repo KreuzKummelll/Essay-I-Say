@@ -153,7 +153,7 @@ class Game {
     }
     
     func startAspectClassifierScript() {
-        print("Welcome to Small I Say `Aspect Classifier`. It classifies whether your inputed text is in the continuous or simple aspect.\n")
+        print("Welcome to Small I Say `Aspect Classifier`. It classifies whether your inputed text is in the continuous, simple, perfect simple, or perfect continuous aspect.\n")
         
         repeat {
             inputString = readLine()!
@@ -211,5 +211,7 @@ class Game {
     """
 }
 
-let game = Game()
-game.mainLoop()
+Game().mainLoop()
+
+
+//Factory().makeAspectJSON()
